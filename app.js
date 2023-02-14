@@ -42,7 +42,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "Email",
+        name: "Questions",
         message: "For questions (e-mail) : "
     }
 
