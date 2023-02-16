@@ -1,48 +1,50 @@
 const inquirer = require('inquirer');
+const fs = require("fs")
+const MarkDown = require('./lib/ReadMeGen')
 // Questions for README
 const questions = [
     {
         type: "input",
-        name: "Title",
+        name: "title",
         message: "Project title : "
     },
     {
         type: "input",
-        name: "Description",
+        name: "description",
         message: "Description of Project : "
     },
     {
         type: "input",
-        name: "Installation",
+        name: "installation",
         message: "Installation of Instructions : "
     },
     {
-        type: "List",
-        name: "License",
-        message: "License : ",
-        Choices: ['MIT', 'ISC', 'GNULv3'],
+        type: "list",
+        name: "license",
+        message: "License",
+        choices:['MIT', 'ISC', 'GNULv3'],
         filter(val) {
             return val.toLowerCase();
         }
     },
     {
         type: "input",
-        name: "Usage",
+        name: "usage",
         message: "Project Use : "
     },
     {
         type: "input",
-        name: "Contribution",
+        name: "contribution",
         message: "Contributors : "
     },
     {
         type: "input",
-        name: "Tests",
+        name: "tests",
         message: "Description of Test : "
     },
     {
         type: "input",
-        name: "Questions",
+        name: "questions",
         message: "For questions (e-mail) : "
     }
 
@@ -53,8 +55,15 @@ const questions = [
 function runQuery() {
     return inquirer.prompt(questions)
     .then((answers)=> {
-        console.log(answers)
-        return answers
+        const mark = MarkDown.generateReadme(answers)
+        fs.writeFile('README.md', mark, function(err) {
+            if(err) {
+                console.log('Could not save file', err)
+            } else {
+                console.log("success: new README.md file generated inside the current folder")
+            }
+        })
+
     })
     .catch((error)=> {
         console.log(error)
