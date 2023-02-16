@@ -1,7 +1,10 @@
 
-#readme
+#t
 
-#Licensed under the [License: mit](https://choosealicense.com/licenses/mit/) license
+ [![license: gnpulv3](https://img.shields.io/badge/gnpulv3-Licensed%20for%20GNPUL%20v3-yellow)](https://www.gnu.org/licenses/)
+
+
+#Licensed under the [license: gnpulv3](https://choosealicense.com/licenses/lgpl-3.0/) license
         
 ## Table of Content
 - [Project Description](#Description)
@@ -13,23 +16,23 @@
 - [Questions](#Questions)
 
 ## Description
-f
+t
 
 ## Installation
-f
+t
         
 ## License
-[License: mit](https://choosealicense.com/licenses/mit/)
+Licensed under the [license: gnpulv3](https://choosealicense.com/licenses/lgpl-3.0/) license
 
 ## Usage
-
+t
 
 ## Contribution
-h
+t
 
 ## Tests
-h
+t
 
 ## Questions
-h
-
+t
+    
