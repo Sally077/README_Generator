@@ -44,9 +44,15 @@ const questions = [
     },
     {
         type: "input",
-        name: "questions",
+        name: "email",
         message: "For questions (e-mail) : "
-    }
+        
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "For questions (github) : "
+    },
 
 ]
 
