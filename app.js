@@ -1,5 +1,8 @@
+// Apply inquirer package
 const inquirer = require('inquirer');
+// applying node.js file system document
 const fs = require("fs")
+// linking lib folder and readmeGen.js
 const MarkDown = require('./lib/ReadMeGen')
 // Questions for README
 const questions = [
@@ -24,7 +27,7 @@ const questions = [
         message: "license",
         choices:['mit', 'isc', 'gnpulv3'],
         filter(val) {
-            return val.toLowerCase();
+            return val.toLowerCase(); // will apply lowercase
         }
     },
     {
@@ -45,13 +48,13 @@ const questions = [
     {
         type: "input",
         name: "email",
-        message: "For questions (e-mail) : "
+        message: "For questions please email (e-mail) : "
         
     },
     {
         type: "input",
         name: "github",
-        message: "For questions (github) : "
+        message: "For questions about the readme generator (github) : "
     },
 
 ]
@@ -59,21 +62,21 @@ const questions = [
 // Code to run Query Function
 
 function runQuery() {
-    return inquirer.prompt(questions)
-    .then((answers)=> {
-        const mark = MarkDown.generateReadme(answers)
-        fs.writeFile('README.md', mark, function(err) {
-            if(err) {
-                console.log('Could not save file', err)
+    return inquirer.prompt(questions) // prompt displays the questions
+    .then((answers)=> { //then command works with the catch command to async or handle the error
+        const mark = MarkDown.generateReadme(answers) //generates mark down answers in readme
+        fs.writeFile('README.md', mark, function(err) { //fs.write document to write a file called readme.md
+            if(err) { //if statement checks that file has been written successfully
+                console.log('Fail: Could not save file', err) 
             } else {
                 console.log("success: new README.md file generated inside the current folder")
             }
         })
 
     })
-    .catch((error)=> {
-        console.log(error)
+    .catch((error)=> { //catches statements and defines a block of code
+        console.log(error) //console log error in the terminal
     })
 }
-
+//runs the query
 runQuery()
