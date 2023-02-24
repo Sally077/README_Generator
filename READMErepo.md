@@ -3,6 +3,7 @@
 [![license: mit](https://img.shields.io/badge/MIT-License__for__MIT-yellowgreen)](https://opensource.org/license/mit/)
 
 ## Description
+<a id="description"></a>
 
 Working on node the assignment has asked that we produce the following for the scenario below:
 
@@ -36,6 +37,10 @@ When a license from the dropdown options section is selected a badge is added at
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [Contribution](#how-to-contribute)
+- [Tests](#tests)
 
 ## Installation
 <a id="installation"></a>
@@ -58,25 +63,41 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 There were no collaborators in this task.
 
-I watched and followed the video below s
---------
+I watched and followed the video below on how to install the node packages by Assistian
+https://www.youtube.com/watch?v=9ZHzhHiBwqc
+
+I looked at a git hub repo for the structure and an example of how to apply the code by JFisher396
+https://github.com/jfisher396/readme-generator
+
+I watched a video all about node as an introduction to the program from Programming with Mosh
+https://www.youtube.com/watch?v=TlB_eWDSMt4
+
+I looked at the node documentation for how to add docs from the file system
+https://nodejs.org/docs/latest-v8.x/api/fs.html
+
+
 
 ## License
+<a id="license"></a>
 
 I have chosen a MIT license for this project
 ---
 
 ## Badges
+<a id="badges"></a>
 
 I now have 3 git hub badge acheivements pullshark x2 and YOLO and a quickdraw badge
 
 ## Features
+<a id="features"></a>
 
 My code has a choices feature in node that allows the user to choose a license and applies a badge image at the top with links to information about the main licenses.
 
 ## How to Contribute
+<a id="contribution"></a>
 
 N/A
 
 ## Tests
+<a id="tests"></a>
 
