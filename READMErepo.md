@@ -86,6 +86,11 @@ https://www.youtube.com/watch?v=TlB_eWDSMt4
 I looked at the node documentation for how to add docs from the file system
 https://nodejs.org/docs/latest-v8.x/api/fs.html
 
+I looked at the inquirer website to find out more details on the different prompt data types
+https://www.npmjs.com/package/inquirer?activeTab=readme#prompt
+
+I looked at this code to help me find anchors to move to parts of the document when clicked in the table of content.
+https://stackoverflow.com/questions/27981247/github-markdown-same-page-link
 
 
 ## License
@@ -113,16 +118,31 @@ N/A
 <a id="tests"></a>
 
 The js code
+
+
 <img src="/images/js_code.png">
 
 The markdown 
+
+
 <img src="/images/markdown_img.png">
 
+
 Adding data in the command line
+
+
 <img src="/images/implementation.png">
 
+
+
 Saving to the readme
+
+
 <img src="/images/filesaved.png">
 
+
 The output after the code has been entered
+
+
 <img src="/images/readmepreview.png">
+
