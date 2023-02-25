@@ -53,7 +53,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "name",
+        name: "github",
         message: "For questions about the readme generator (github) : "
     },
 
