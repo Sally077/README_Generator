@@ -1,4 +1,4 @@
-#<readme generator>
+# <readme generator>
 
 [![license: mit](https://img.shields.io/badge/MIT-License__for__MIT-yellowgreen)](https://opensource.org/license/mit/)
 
@@ -29,10 +29,19 @@ When the user enters their e-mail address it goes to the e-mail address link ent
 When the user clicks on the table of content it is fully functioning and goes to the subheaded area.
 When a license from the dropdown options section is selected a badge is added at the top section of the readme.
 
+## Improvements & Issues
+<a id="improvements"></a>
+I think that the project could be improved by adding the data into a webpage or a program to make a user interface that is more aesthetically pleasing. I could also look at adding other options in there like an image area so the user can importa an image screen shot of their current project. I also noticed that my tutor had text areas for the description and other headings and would have liked to have looked more into changing the data type in the app.js file.
+
+I did want to create a program that when run will produce a new document file each time but when looking at the tutor's visual example in class it was clear that my project met the brief and when the data was entered it appended to the original md file. I felt that for this project it would be the best way to handle it practically but in future I would like to look at how to append to a new file and practice working through the documentation for file handling in node.
+
+Having some experience of creating 'r' read, 'w' write and 'a' append files in python and attaching these to notepad and csv files I think that this experience has helped when creating files in node.
+
 
 ## Table of Contents
 
 - [Description](#description)
+- [Improvements](#improvements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -45,7 +54,7 @@ When a license from the dropdown options section is selected a badge is added at
 ## Installation
 <a id="installation"></a>
 
-I have installed node.js and inquirer: ^8.0.0 
+I have installed node.js and inquirer: ^8.0.0  - use npm start to initate the process and add data to the readme
 
 ## Usage
 <a id="usage"></a>
@@ -81,7 +90,7 @@ https://nodejs.org/docs/latest-v8.x/api/fs.html
 <a id="license"></a>
 
 I have chosen a MIT license for this project
----
+
 
 ## Badges
 <a id="badges"></a>
@@ -101,3 +110,21 @@ N/A
 ## Tests
 <a id="tests"></a>
 
+The js code
+<img src="/images/js_code.png">
+
+
+The markdown 
+<img src="/images/markdown_img.png">
+
+Adding data in the command line
+<img src="/images/implementation.png">
+
+Saving to the readme
+
+<img src="/images/filesaved.png">
+
+
+The output after the code has been entered
+
+<img src="/images/readmepreview.png">
