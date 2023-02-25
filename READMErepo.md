@@ -37,6 +37,8 @@ I did want to create a program that when run will produce a new document file ea
 
 Having some experience of creating 'r' read, 'w' write and 'a' append files in python and attaching these to notepad and csv files I think that this experience has helped when creating files in node.
 
+I could have added a function to initialise the code to call (node app.js) but felt that entering in npm start and had created a function called run query which produced the same result as using the init command in the original index.js code.
+
 
 ## Table of Contents
 
@@ -113,7 +115,6 @@ N/A
 The js code
 <img src="/images/js_code.png">
 
-
 The markdown 
 <img src="/images/markdown_img.png">
 
@@ -121,10 +122,7 @@ Adding data in the command line
 <img src="/images/implementation.png">
 
 Saving to the readme
-
 <img src="/images/filesaved.png">
 
-
 The output after the code has been entered
-
 <img src="/images/readmepreview.png">
