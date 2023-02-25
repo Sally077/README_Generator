@@ -1,5 +1,5 @@
 
-#f
+#ReadMe Generator
 
  [![license: mit](https://img.shields.io/badge/MIT-License__for__MIT-yellowgreen)](https://opensource.org/license/mit/)
 
@@ -20,11 +20,11 @@
 
 ## Description
 <a id="Description"></a>
-f
+To create a dynamic read me generator that a user can enter data in quickly and effectively saving them time.
 
 ## Installation
 <a id="Installation"></a>
-f
+use npm start to initiate the code
         
 ## License
 <a id="License"></a>
@@ -32,22 +32,22 @@ Licensed under the [license: mit](https://choosealicense.com/licenses/mit/) lice
 
 ## Usage
 <a id="Usage"></a>
-f
+To create a read me file using node.js
 
 ## Contribution
 <a id="Contribution"></a>
-f
+Sally Hedges
 
 
 ## Tests
 <a id="Tests"></a>
-f
+Tested the command line, visual read me image, checked that preview is working effectively.
 
 ## Email
 <a id="Email"></a>
-me@me.com
+sallyhedges77@gmail.co.uk
 
 ## Github
 <a id="Github"></a>
-undefined
+sally077/README_Generator
     
