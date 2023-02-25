@@ -1,10 +1,10 @@
 
-#Readme
+#Read Me generator
 
- [![license: isc](https://img.shields.io/badge/isc-Licensed%20for%20isc-brightgreen)](https://opensource.org/license/isc-license-txt/)
+ [![license: mit](https://img.shields.io/badge/MIT-License__for__MIT-yellowgreen)](https://opensource.org/license/mit/)
 
 
-#Licensed under the [license: isc](https://choosealicense.com/licenses/isc/) license 
+#Licensed under the [license: mit](https://choosealicense.com/licenses/mit/) license 
         
 ## Table of Content
 - [Project Description](#Description)
@@ -20,34 +20,34 @@
 
 ## Description
 <a id="Description"></a>
-to create a readme file generated from the command line
+To enable the user to add data to a readme file that dynamically generates a professional readme.
 
 ## Installation
 <a id="Installation"></a>
-na
+use npm start to initate node.js and inquirer
         
 ## License
 <a id="License"></a>
-Licensed under the [license: isc](https://choosealicense.com/licenses/isc/) license
+Licensed under the [license: mit](https://choosealicense.com/licenses/mit/) license
 
 ## Usage
 <a id="Usage"></a>
-for coders to use to apply details about their code
+To use instead of manually entering/creating a readme document to save time and make it easier for the user.
 
 ## Contribution
 <a id="Contribution"></a>
-me
+Sally Hedges
 
 
 ## Tests
 <a id="Tests"></a>
-test
+Tests on adding the badges, testing the different types of data, checking that the data saves successfully to the write place, checking the preview to make sure all elements are functioning correctly.
 
 ## Email
 <a id="Email"></a>
-shedges@me.com
+sally77@gmail.com
 
 ## Github
 <a id="Github"></a>
-sallygithub
+github.com/Sally077/README_Generator
     
